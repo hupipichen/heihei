@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -30,18 +30,18 @@ export const config = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
